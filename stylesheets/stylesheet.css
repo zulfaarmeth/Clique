@@ -56,9 +56,8 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-image: url(http://www.britishmuseum.org/images/special_exhibitions_624.jpg);
-  background-size: cover;
-  height: 15em;}
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957); }
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -113,7 +112,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #4B67C3 ; }
+  color: #159957; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -245,11 +244,35 @@ a {
   .site-footer {
     font-size: 0.9rem; } }
 
-/* custom styles */
+/* Marc's custom styles */
 
-#exhibit-image {
-  margin-top: 2em;
-  max-width: 20em;
-  width: 60%;
+.page-header {
+  background-color: #3962AC;
+  background-image: linear-gradient(120deg, #3962AC, #DE9CD8); }
+
+.main-content {
+  background-color: #fff;
+}
+
+.main-content h3 {
+  color: #3962AC;
+  margin-bottom: 2em;
+  margin-top: 5em;
+}
+
+img {
+  margin-top: 1em;
+}
+
+a {
+  color: #D788CC;
+}
+
+ul, ol {
+  padding-left: 1.6em;
+}
+
+li {
+  margin-top: 1em;
 }
 
