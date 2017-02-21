@@ -241,6 +241,8 @@ a {
 /* Jonny's custom styles */
 
 .page-header {
+  color: #fff;
+  text-align: center;
   background-color: #3962AC;
   background-image: linear-gradient(120deg, #3962AC, #DE9CD8); }
 
@@ -269,4 +271,3 @@ ul, ol {
 li {
   margin-top: 1em;
 }
-
